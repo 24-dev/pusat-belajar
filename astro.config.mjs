@@ -19,7 +19,7 @@ export default defineConfig({
       sidebar: [
         {
           label: "Pengenalan",
-          link: "/pusat-belajar/pengenalan",
+          link: "/pengenalan",
         },
         {
           label: "Tutorials",
