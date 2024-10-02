@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check --minimumSeverity warning && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -19,6 +19,6 @@
   "devDependencies": {
     "eslint": "^9.11.1",
     "prettier": "^3.3.3"
-  }
+  },
+  "packageManager": "pnpm@8.15.5"
 }
-

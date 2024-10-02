@@ -4,6 +4,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://24-dev.github.io",
+  base: "/pusat-belajar",
   integrations: [
     starlight({
       title: "Pusat Belajar 24 DEV",
@@ -17,7 +19,7 @@ export default defineConfig({
       sidebar: [
         {
           label: "Pengenalan",
-          link: "/pengenalan",
+          link: "/pusat-belajar/pengenalan",
         },
         {
           label: "Tutorials",
