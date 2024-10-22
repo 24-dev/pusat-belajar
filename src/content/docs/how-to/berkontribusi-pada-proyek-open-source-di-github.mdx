@@ -65,7 +65,7 @@ Pada kesempatan ini, kita akan menambahkan data SMK yang belum tersedia di SMKID
 
 1. Akses repositori SMKID pada https://github.com/24-dev/smkid
 2. _Fork_ repositori tersebut sehingga kalian memiliki salinan repositori tersebut di profil GitHub kalian.
-   [](image)
+   ![Melakukan fork](./images/oss-contribution/fork-1.png)
 
 3. Pada halaman repositori yang sudah kalian fork di profil kalian, lakukan clone pada repositori tersebut
    ke perangkat kalian dengan menjalankan perintah berikut di terminal kalian:
@@ -74,12 +74,11 @@ Pada kesempatan ini, kita akan menambahkan data SMK yang belum tersedia di SMKID
    git clone https://github.com/username-kalian/smkid.git
    ```
 
-   [](image)
+   ![Clone URL 1](./images/oss-contribution/fork-2.png)
 
    Langkah untuk mendapatkan URL untuk _clone_ bisa mengikuti gambar di bawah.
 
-   [](image)
-   [](image)
+   ![Clone URL 2](./images/oss-contribution/fork-3.png)
 
 4. Buka folder hasil clone tadi, lalu buat branch baru sesuai dengan konten yang akan kalian tambahkan.
    Pada contoh ini, penulis akan menambahkan data SMKN 58 Jakarta.
@@ -88,11 +87,11 @@ Pada kesempatan ini, kita akan menambahkan data SMK yang belum tersedia di SMKID
    git checkout -b sekolah-yang-ingin-ditambah
    ```
 
-   [](image)
+   ![Membuat branch](./images/oss-contribution/create-branch.png)
 
 5. Tambahkan konten sesuai dengan format yang ada. Silakan cek berkas berikut https://github.com/24-dev/smkid/blob/main/_contents/SMKN2SBY.md?plain=1
 
-   [](image)
+   ![Status setelah menambahkan konten](./images/oss-contribution/add-content.png)
 
 6. Lalu, _push_ perubahan tersebut ke _remote_ repositori hasil _fork_ tadi.
 
@@ -108,7 +107,7 @@ Pada kesempatan ini, kita akan menambahkan data SMK yang belum tersedia di SMKID
    ```
 
 8. Buka halaman repositori fork SMKID kalian. Akan ada banner dengan tombol **“Compare & Pull Request”**, silakan klik tombol tersebut.
-   [](image)
+   ![Membuat PR langkah pertama](./images/oss-contribution/pr-1.png)
 
 9. Perhatikan kotak merah dan kuning pada gambar di bawah.
 
@@ -121,9 +120,11 @@ Pada kesempatan ini, kita akan menambahkan data SMK yang belum tersedia di SMKID
      - Isi sesuai dengan template tersebut
      - Jika tidak tahu atau tidak ada, bisa diisi dengan \_"No information provided"
 
-   [](image)
+   ![Membuat PR langkah kedua](./images/oss-contribution/pr-2.png)
 
 10. Jika sudah, klik **"Create pull request"** dan selesai!
+    ![Membuat PR langkah ketiga](./images/oss-contribution/pr-3.png)
+
 11. Kalian hanya perlu menunggu _reviewer_ menyetujui perubahan kalian dan melakukan _merge_.
     Biasanya jika tidak sesuai standar, kalian akan diminta untuk memperbaikinya dan _feedback loop_ terjadi di sana.
 12. **_Good luck!_**
